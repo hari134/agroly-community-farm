@@ -38,10 +38,6 @@ const Benefits = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground rounded-2xl p-6 shadow-xl max-w-xs">
-              <p className="text-4xl font-bold mb-1">1000+</p>
-              <p className="text-sm">Happy families served</p>
-            </div>
           </div>
 
           {/* Content Side */}
