@@ -15,10 +15,10 @@ const CTA = () => {
           
           <Button 
             size="lg" 
-            className="bg-background text-foreground hover:bg-background/90 text-lg px-10 gap-2 shadow-xl"
+            className="bg-background text-foreground hover:bg-background/90 text-lg px-10 gap-2 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
           >
             <MessageCircle className="w-5 h-5" />
-            Connect with AI Agent
+            Connect with Agroly Agent
           </Button>
 
           <div className="mt-8 flex flex-wrap justify-center gap-8 text-sm opacity-90">

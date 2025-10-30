@@ -1,4 +1,4 @@
-import { Leaf } from "lucide-react";
+import agrolyLogo from "@/assets/agroly-logo.jpeg";
 
 const Footer = () => {
   return (
@@ -6,8 +6,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Leaf className="w-8 h-8 text-primary" />
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src={agrolyLogo} 
+                alt="Agroly Logo" 
+                className="w-16 h-16 object-contain"
+              />
               <span className="text-2xl font-bold">Agroly</span>
             </div>
             <p className="text-background/70 leading-relaxed">
